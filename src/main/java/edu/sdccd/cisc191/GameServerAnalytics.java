@@ -80,7 +80,7 @@ public class GameServerAnalytics {
     public static <T> T pickHigherRated(T first, T second, Comparator<T> comparator) {
         // choosing the higher rating using the comparator
         // checks if first is greater than second, then returns the higher one when found
-        return comparator.compare(first, second) >= 0 ? first : second;
+        return comparator.compare(first, second) >=  0 ? first : second;
     }
 
     public static String tierFor(PlayerAccount player) {
